@@ -93,10 +93,7 @@ header#main-header div.side input{
   background-size: 12px;
   
 }
-input , button{
-  outline: 0;
-}
-button{
+input,button {
   outline: 0;
 }
 
@@ -121,6 +118,7 @@ div.bar .content{
   justify-content: space-between;
   align-items: center;
   padding-left: 285px;
+  height: 100%;
 }
 
 div.bar .content ul {
@@ -132,7 +130,23 @@ div.bar .content ul li{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  padding: 0 15px;
+  
+  
+}
+
+div.bar .content span{
+  color :#667580;
+  font-size: 12px;
+  font-weight: bold;
+
+}
+
+div.bar .content ul li  strong{
+  color:#667580;
+  font-size:18px;
+  font-weight: bold;
+  margin-top: 2px;  
 }
 
 
